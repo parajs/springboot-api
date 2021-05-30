@@ -21,17 +21,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<!--<dependency>-->
-			<!--<groupId>org.mybatis.spring.boot</groupId>-->
-			<!--<artifactId>mybatis-spring-boot-starter</artifactId>-->
-			<!--<version>2.2.0</version>-->
-		<!--</dependency>-->
-
-    <dependency>
-      <groupId>com.baomidou</groupId>
-      <artifactId>mybatis-plus</artifactId>
-      <version>3.4.3</version>
-    </dependency>
     <!--swagger2-->
     <dependency>
       <groupId>io.springfox</groupId>
@@ -42,6 +31,18 @@
       <groupId>io.springfox</groupId>
       <artifactId>springfox-swagger-ui</artifactId>
       <version>2.9.2</version>
+    </dependency>
+
+    <!--<dependency>-->
+      <!--<groupId>com.baomidou</groupId>-->
+      <!--<artifactId>mybatis-plus-boot-starter</artifactId>-->
+      <!--<version>2.3</version>-->
+    <!--</dependency>-->
+    <!-- https://mvnrepository.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-starter -->
+    <dependency>
+      <groupId>org.mybatis.spring.boot</groupId>
+      <artifactId>mybatis-spring-boot-starter</artifactId>
+      <version>2.1.4</version>
     </dependency>
 
     <!--util-->
@@ -63,12 +64,20 @@
 			<!--<artifactId>postgresql</artifactId>-->
 			<!--<scope>runtime</scope>-->
 		<!--</dependency>-->
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>5.1.40</version>
+      <version>8.0.23</version>
     </dependency>
-		<dependency>
+    <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.75</version>
+    </dependency>
+
+    <dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>

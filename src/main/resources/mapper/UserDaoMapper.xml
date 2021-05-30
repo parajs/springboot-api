@@ -45,7 +45,7 @@
     SELECT * FROM user WHERE id =#{id}
   </select>
 
-  <insert id="create" parameterType="cn.abel.bean.User">
+  <insert id="create" parameterType="com.para.adminPara.bean.User">
     <selectKey resultType="int"  order="AFTER" keyProperty="id" >
       SELECT LAST_INSERT_ID()
     </selectKey>
@@ -68,7 +68,7 @@
     )
   </insert>
 
-  <update id="update" parameterType="cn.abel.bean.User">
+  <update id="update" parameterType="com.para.adminPara.bean.User">
     UPDATE user SET
     name = #{name},
     address = #{address},
